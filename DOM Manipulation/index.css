@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+     margin-top: 50px;
+}
+  
+#color-box {
+    width: 200px;
+    height: 200px; 
+    background-color: rgb(138, 209, 24); 
+    margin: 20px auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;  
+}  
+ 
+.controls {
+    margin: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f0f0f0;
+    margin: 5px auto;
+    width: 200px;
+    padding: 8px;
+    border-radius: 4px;
+} 
+

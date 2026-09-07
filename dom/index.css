@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#two-lines{
+    width: 300px;
+}
+
+.next-line{
+    display: block;   
+}
+
+input{  
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+div{
+    display: block;
+    width: 568px;
+    margin: 0 auto;
+}
+.next-step{
+    display: block;
+    margin:0 auto;
+}
+.next-step {
+    display: block;
+    margin: 20px;
+}
+.in-line{
+    display:7px;
+    margin: 0;
+}
+.outline{
+    width:80px;
+}
+.topline{
+    width:60px;
+}
+
+#flex1{
+    display: flex;
+    gap: 95px;
+}
+
+#flex2{
+    display: flex;
+}
+
+#city{
+    width: 70px;
+}
+
+#pcard{
+    width: 40px;
+}
+

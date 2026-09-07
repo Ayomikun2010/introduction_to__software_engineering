@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+img {
+     display: block;
+    width: 272px;
+    margin: 0 auto;
+}
+input {
+    display: block;
+    width: 561px;
+}
+div {
+    display: block;
+    width: 568px;
+    height: 300px;
+}
+   
+   
+

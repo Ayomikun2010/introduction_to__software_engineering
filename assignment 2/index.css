@@ -1,0 +1,68 @@
+body {
+   margin: 0;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+#two-lines{
+    width: 300px;
+}
+
+.next-line {
+    display: block;
+}
+
+input {
+    padding:7px;
+    margin: 6px;
+    margin-left:20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.timeline {
+   display: 7px;
+   margin: 0;
+}
+
+div{
+    display: block;
+    width: 568px;
+    margin: 0 auto;
+}
+
+.next-step{
+    display: block;
+    margin:0 auto;
+}
+
+.time-line{
+    display: 2px;
+    margin: 0;
+}
+
+.outline{
+    width:80px;
+}
+
+.topline{
+    width:60px;
+}
+
+#flex1{
+    display: flex;
+   
+}
+
+#flex2{
+    display: flex;
+}
+
+
+#city{
+    width: 70px;
+}
+
+#pcard{
+    width: 40px;
+    
+}

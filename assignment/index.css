@@ -1,0 +1,80 @@
+ body{
+    margin: 0 auto;
+   
+}
+ 
+ img { 
+     display: inline; 
+     width: 90px; 
+     margin: 0 auto; 
+     background-color: black; 
+}
+h3{
+    color: white;
+} 
+.samu {
+    display: inline; 
+    width: 15px;
+    padding: 10px;
+    /* margin: 5px; */
+}
+#con1{
+    background-color: black;
+}
+.ayo{
+    display: inline;
+    width: 20px;
+    margin: 8px;
+  
+}
+#con2{
+    padding:5px;
+}
+ 
+#clem {
+   display: flex;   
+   margin: 0 auto;
+   background-color: black;
+}
+
+
+
+
+#no {
+    
+   color: black;
+ 
+}
+
+#mic{
+    display:inline;
+    width: 350px;   
+
+}
+ #con3{
+    /* display: flex; */
+  margin: 20px;  
+    
+} 
+
+
+
+#nu {
+    color: black;
+}
+
+#timage {
+    display:inline;
+  width: 550px;
+  margin: 0 auto;
+}
+
+
+    
+
+
+
+
+    
+
+
