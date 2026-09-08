@@ -3,6 +3,7 @@ const btnChangeColorElem = document.getElementById("btn-change-color");
 const resetbtnElem = document.getElementById("btn-reset");
 const updateTextBtnElem = document.getElementById("btn-change-text");
 const addToListBtnElem = document.getElementById("btn-add-item");
+const textInputElem = document.getElementById("text-input");
 
 btnChangeColorElem.addEventListener("click", function(){
     const colors = ["green", "crimson", "red", 'blue', "purple"];
@@ -17,9 +18,14 @@ resetbtnElem.addEventListener("click", function(){
     const color = "lightgray";
     
     colorBoxElement.style.backgroundColor = color;
-
-
 })
+
+updateTextBtnElem.addEventListener("click", function(){
+const textInputElem = "Ayomikun";
+colorBoxElement.textContent 
+})
+
+
 
 console.log("Printing the element object")
 
@@ -54,6 +60,8 @@ console.log(person)
 
 let names = ["Jide", "Bola", "Shola", "Jinadu", "Phoebe", "Britus", "Thompson"];
 console.log(names);
+
+
 
 
 
