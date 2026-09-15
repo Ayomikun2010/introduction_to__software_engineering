@@ -382,7 +382,7 @@ for (let count = 0; count<NUM_of_student; count++)
         let Computerscience_score = 91;
         let Total_score = Mathematics_score + Engish_score + Physics_score + Computerscience_score;
         let Average_score = Total_score / 4;
-        if(total_score >= 90){
+        if (Total_score >= 90){
             console.log("Outstanding")
         }
         else if(total_score >=75  <= 89){
@@ -416,23 +416,25 @@ for (let count = 0; count<NUM_of_student; count++)
         //     18 
 
         let NO = 3               
-        for(let count = 1; count<=5; count++){                       
+        for(let count = 1; count <= 5; count++){                       
            console.log(NO);                                          
            NO += 3;                                                  
         }
         let No = 3
-        for(let count = 1; coun<=4; count++){
+        for (let count = 1; count <= 4; count++){
             console.log(NO)
             NO+= 3;
         }
 
         let COUNT = 1;           // 5
-        for(let  COUNT = 1;  COUNT<=50; count++)
-        if( COUNT % 2 === 0){
+        for (let  COUNT = 1;  COUNT<=50; COUNT++){
+           if (COUNT % 2 === 0){
             console.log("count is even");
         } else {
             console.log("count is odd");
         }
+        }
+        
 
         let customer_money = 100000;         // 6
         // Item
@@ -479,17 +481,18 @@ for (let count = 0; count<NUM_of_student; count++)
         ];
         let total_salary = 0;
         let high_earners = 0;
+        let presentSalary = 0;
         console.log("All salaries")
-        for(let count = 0; count<salaries.length; count++)
-        let present_salary = salaries[count]
+        for (let count = 0; count<salaries.length; count++)
+        presentSalary = salaries[count]
         // Display every salary
-        console.log("Employee" + (count + 1) + ": ₦" + current_salary)
+        console.log("Employee" + (count + 1) + ": ₦" + presentSalary)
         // Calculate total amount the company pays all employee
-        total_salary+=current_salary
+        total_salary+=presentSalary
         // calculate average
         let average_salary = total_salary / salaries.length
         // Count employee earning 100000 or more
-        if(current_salary>=100000){
+        if (presentSalary >= 100000){
             high_earners++;
         }
         console.log("-------");
@@ -526,12 +529,13 @@ for (let count = 0; count<NUM_of_student; count++)
 // }
 
    // Then explain the purpose of each of these three parts:
-// let count = 2 : It run only once
-// count <= 20:To check whether it is true
-// count += 2: It the last thing that run
+// let i = 2 : It run only once
+// i <= 20:To check whether it is true
+// i += 2: It the last thing that run
 // To run the program:
-    let cOUNT = 2; (cOUNT <= 20 cOUNT += 2) ; {
-     console.log(cOUNT); 
+    let i = 2; 
+    for (i = 2; i <= 20; i += 2){
+     console.log(i); 
     }
     // Finally, change the loop so that it prints:
 
@@ -545,8 +549,9 @@ for (let count = 0; count<NUM_of_student; count++)
      // 24
      // 27
      // 30
-    let count = 3; ( COUnt <= 27;  COUnt += 2) {
-     console.log( COUnt); 
+    // let i = 3; 
+    for (i = 3; i <= 27; i += 2){
+     console.log(i); 
     }
 
     // Write a for loop that prints:     // 3
@@ -609,7 +614,7 @@ for(let count = 1; count <= 100; count++){
     console.log("Total" + total); 
 }
 
-let student = ["samuel", "david", "daniel", "grace", "esther", "micheal", "john," "sarah"];   // 7
+let student = ["samuel", "david", "daniel", "grace", "esther", "micheal", "john", "sarah"]       // 7
 console.log("Student list")
 for(let count = 0; count <student.length; count++){
     console.log("Student" + (count + 1) + ": " + student(count));
@@ -617,7 +622,7 @@ for(let count = 0; count <student.length; count++){
 
 console.log("Number that even and greater than 20");            // 8
 for(let count = 1; count <= 50; count++){
-    if(count % 2 === 0  count > 20){
+    if(count % 2 === 0 && count > 20){
         console.log(count);
     }
 }
@@ -634,14 +639,16 @@ let fail_count = 0;
 let high_score = scores[0];
 let low_score = [0];
 let eighty_plus_count = 0;
-let even_count = 0;
-let odd_count = 0;
+let evenCount = 0;
+let oddCount = 0;
 
 
 let number_of_student = ["david", "samuel", "fola", "micheal", "jeremiah", "mayowa", "seun", "alex", "shina", "bright"]
-"student name" = number_of_student.length
-for(let count = 1; count < student_name; count++);
-console.log(student_name);
+let studentName = number_of_student.length;
+for(let count = 0; count < studentName; count++){
+console.log(number_of_student);
+}
+
 
 
 

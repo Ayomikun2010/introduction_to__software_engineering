@@ -25,8 +25,6 @@ const textInputElem = "Ayomikun";
 colorBoxElement.textContent 
 })
 
-
-
 console.log("Printing the element object")
 
 console.log(colorBoxElement)
@@ -58,8 +56,37 @@ console.log(person)
 // }
 
 
-let names = ["Jide", "Bola", "Shola", "Jinadu", "Phoebe", "Britus", "Thompson"];
-console.log(names);
+let names_of_student = ["Jide", "Bola", "Shola", "Jinadu", "Phoebe", "Britus", "Thompson"];
+let no_of_student = names_of_student.length;
+console.log("no of student" + no_of_student);
+let count = 0;
+let id = 1;
+
+for (count = 0; count<no_of_student; count++){
+    console.log(names_of_student[count] + " " + (count + 1));
+    // console.log(names_of_student[count] + " " + id);
+    // id++;
+}
+
+
+
+// I want to list out each name present in the names array
+// when I list out this name, it should be in this format: name id
+
+
+// for me to fetch the names one by one;
+// I need to know the size or length of the names array
+// I need to create a variable that tracks the id
+// I need to use a loop to iterate, for loop since I know the size of array
+// I need to declare the for loop and then create a counter variable inside
+// the counter variable sets a condition against the length of the names array
+// I then iterate
+// during iteration, I print console.log(names[counter] + " " + id)
+// id iterates and ends when the condition is met
+
+
+
+
 
 
 
