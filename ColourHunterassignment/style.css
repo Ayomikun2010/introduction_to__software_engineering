@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+
+}
+
+#container1 {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 250px;
+    background-color: white;
+    height: 250px;
+    text-align: center;
+}
+
+#colour {
+    width: 2px;
+    margin-top: 10px;
+
+}
+
+#containerRandB {
+    margin: 2px;
+}
+
+#red {
+    margin-bottom: 8px;
+    width: 113px;
+    padding: 7px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+
+#blue {
+    width: 110px;
+    padding: 7px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+}
+
+#green {
+    width: 115px;
+    padding: 7px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}
+
+#yellow {
+    width: 115px;
+    padding: 7px;
+    color: white;
+    background-color: yellow;
+    border: 1px solid yellow;
+}

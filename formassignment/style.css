@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+#container1{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#namebox{
+    padding: 10px;
+}
+
+#classbox{
+padding: 10px;
+}
+
+#agebox{
+padding: 10px;
+}
+
+#datebox{
+padding: 10px;
+}
+
+#submitBtn{
+    display: grid;
+    margin-top: 20px;
+    padding: 10px;
+    padding-right: 105px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+

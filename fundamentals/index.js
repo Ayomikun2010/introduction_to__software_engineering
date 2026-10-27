@@ -47,39 +47,40 @@ while(number>=1){
 }
 console.log("BLAST OFF!")
 
-// let COUNT = 2;        // 3
-// console.log("Even numbers from 2 to 50:")
-// while(COUNT<=50){
-//     console.log(COUNT);
-//     number+=2;
-// }
-// console.log("Done")
-
-// let NUMBER = 9;            // 4
-// let muiltipler = 1;
-// console.log("Multiplication table of 9:");
-// while(muiltipler<=12){
-//     let result = number * muiltipler;
-//     console.log(number + "x" + muiltipler + "="+ result);
-//     muiltipler++
-// }
-
-// num = 1         // 5
-// let total = 0
-// while(num<=100){
-//     total =  total + num
-//     num++
-// }
-// console.log("Total =" + total)
+let COUNT = 2;        // 3
+console.log("Even numbers from 2 to 50:")
+while(COUNT<=50){
+    console.log(COUNT);
+    COUNT++;
+}
+console.log("Done")
 
 
-// let name_of_student = ["esther", "david", "samuel", "grace", "ibrahim","chioma", "tobi", "favour"]    // 6
-// let cont = 0;
-// console.log("Student register");{
-// while((cont + 1) + "" + student(cont));
-// cont++
-// }
-// console.log("total size of class" + student.length)
+let NUMBER = 9;            // 4
+let muiltipler = 1;
+console.log("Multiplication table of 9:");
+while(muiltipler<=12){
+    let result = NUMBER * muiltipler;
+    console.log(NUMBER + " x " + muiltipler + " = "+ result);
+    muiltipler++
+}
+
+let num = 1         // 5
+let total = 0
+while(num<=100){
+    total =  total + num
+    num++
+}
+console.log("Total = " + total)
+
+
+let name_of_student = ["esther", "david", "samuel", "grace", "ibrahim","chioma", "tobi", "favour"]    // 6
+let countOfStudent = 0;
+console.log("Student register");{
+while((countOfStudent + 1) + "" + name_of_student(countOfStudent));
+countOfStudent++
+}
+console.log("total size of class" + name_of_student.length)
 
 
 // let attempts = 1         // 7
@@ -119,25 +120,25 @@ console.log("BLAST OFF!")
 
 
 
-let balance = 100000;         // 10
-let transaction = [-15000, 20000, -80000, 12000, -25000];
-console.log("Starting balance:  ₦" + balance);
-console.log("");
-let c = 0;
-while(c<transaction.length){
-    let current_Transaction = transaction[c];
-    balance = balance + current_Transaction;
-    console.log("Transaction" + (c + 1));
-    if (current_Transaction>0){
-        console.log("Type: Deposit  ₦" + current_Transaction);
-    } else{
-        console.log("Type: Withdraw  ₦" + Math.abu(current_Transaction));
-    }
-    console.log("Balance:  ₦" + balance);
-    console.log("");
-    c++
-}
-console.log("Final Balance:  ₦" + balance);
+// let balance = 100000;         // 10
+// let transaction = [-15000, 20000, -80000, 12000, -25000];
+// console.log("Starting balance:  ₦" + balance);
+// console.log("");
+// let c = 0;
+// while(c<transaction.length){
+//     let current_Transaction = transaction[c];
+//     balance = balance + current_Transaction;
+//     console.log("Transaction" + (c + 1));
+//     if (current_Transaction>0){
+//         console.log("Type: Deposit  ₦" + current_Transaction);
+//     } else{
+//         console.log("Type: Withdraw  ₦" + Math.abu(current_Transaction));
+//     }
+//     console.log("Balance:  ₦" + balance);
+//     console.log("");
+//     c++
+// }
+// console.log("Final Balance:  ₦" + balance);
 
 
 

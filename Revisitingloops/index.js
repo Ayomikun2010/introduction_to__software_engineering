@@ -1,7 +1,7 @@
 // 1. Write a program that prints all numbers from 1 to 100 that are divisible by 4 and 6.
 let number = 100;
 
-for (let count = 1; count <= number; count++){
+for (let count = 1; count <= number; count++) {
     if (count % 4 == 0 && count % 6 == 0) {
         console.log("divisible by 4 and 6");
     } else if (count % 4 == 0) {
@@ -91,12 +91,12 @@ console.log(reversed);
 // Otherwise print the number.
 let numb = 50;
 let v = 1;
-for(v = 1; v <= 50; v++){
-    if (v % 3 == 0 && v % 5 == 0){
+for (v = 1; v <= 50; v++) {
+    if (v % 3 == 0 && v % 5 == 0) {
         console.log("FizzBuzz");
-    } else if (v % 3 == 0){
+    } else if (v % 3 == 0) {
         console.log("Fizz");
-    } else if (v % 5 == 0){
+    } else if (v % 5 == 0) {
         console.log("Bizz");
     } else {
         console.log(v);
@@ -105,22 +105,22 @@ for(v = 1; v <= 50; v++){
 
 //  6. Write a program that finds all prime numbers between 2 and 50 using nested loops.
 for (let number = 2; number <= 50; number++) {
-
     let isPrime = true;
 
-//     for (let divisor = 2; divisor < number; divisor++) {
+    for (let divisor = 2; divisor < number; divisor++) {
 
-//         if (number % divisor === 0) {
-//             isPrime = false;
-//             break;
-//         }
+        if (number % divisor === 0) {
+            isPrime = false;
+            break;
+        }
 
-//     }
+    }
 
-//     if (isPrime) {
-//         console.log(number);
-//     }
-// }
+}
+     if (isPrime) {
+         console.log(number);
+     }
+
 
 //  7. Using nested for loops, print the pattern below:
 // 1
@@ -130,19 +130,19 @@ for (let number = 2; number <= 50; number++) {
 // 12345
 for (let i = 1; i <= 5; i++) {
 
-//  let pattern = "";
-//     for (let j = 1; j <= i; j++) {
-//         pattern += j;
-//     }
+    let pattern = "";
+    for (let j = 1; j <= i; j++) {
+        pattern += j;
+    }
 
-//     console.log(pattern);
-// }
+    console.log(pattern);
+}
 
 //  8. A car starts with ₦50,000 worth of fuel. Every trip consumes ₦3,750. Use a while loop to display the remaining fuel value after each trip until it is less than the cost of another trip.
 let fuel_worth = 50000;
 let every_trip_consumes = 3750;
 let trip = 0;
-while (fuel_worth >= every_trip_consumes){
+while (fuel_worth >= every_trip_consumes) {
     fuel_worth = fuel_worth - every_trip_consumes;
     trip++;
     console.log("After trip " + trip + ": ₦" + fuel_worth)
@@ -175,9 +175,5 @@ console.log("Numbers with digit sum 12:", coun)
 // Divisors: 1, 2, 4, 7, 14
 // Sum = 28
 // 28 is a Perfect Number
-
-
-
-
-
-
+// count = 10;
+// for ()
