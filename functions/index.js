@@ -75,15 +75,14 @@ printNameAndAge("Ayomikun", 16)
 function add7(no){
     return no + 15;
 }
-const message = add7(7);
-console.log(add7(7))
+const result = add7(7);
+console.log(result);
 
 
-// wtite a funtion called multiply that takes 2 numbers and returns their product
+// write a funtion called multiply that takes 2 numbers and returns their product
 // * multiply(3, 2) should return 6
 function multiply(no1, no2){
    return no1 * no2 
 }
-const cal = multiply(2, 2);
-console.log(multiply(2, 2))
-
+const multiplyResult = multiply(2, 2);
+console.log(multiplyResult)

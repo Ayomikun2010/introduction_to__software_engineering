@@ -11,6 +11,9 @@ img {
 input {
     display: block;
     width: 561px;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: black;
 }
 
 div {

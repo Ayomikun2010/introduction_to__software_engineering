@@ -30,9 +30,8 @@ while(dele_gender == "boy"){
 
 
 let count = 1;        // 1
-
+console.log("counting from 1 to 20:")
 while(count<=20){
-    console.log("counting from 1 to 20:")
     console.log(count)
     count++
 }
@@ -47,11 +46,13 @@ while(number>=1){
 }
 console.log("BLAST OFF!")
 
-let COUNT = 2;        // 3
+let countEven = 2;        // 3
 console.log("Even numbers from 2 to 50:")
-while(COUNT<=50){
-    console.log(COUNT);
-    COUNT++;
+while(countEven<=50){
+    if (countEven % 2 == 0){
+        console.log(countEven);
+    }
+    countEven++;
 }
 console.log("Done")
 
@@ -74,30 +75,30 @@ while(num<=100){
 console.log("Total = " + total)
 
 
-let name_of_student = ["esther", "david", "samuel", "grace", "ibrahim","chioma", "tobi", "favour"]    // 6
-let countOfStudent = 0;
-console.log("Student register");{
-while((countOfStudent + 1) + "" + name_of_student(countOfStudent));
-countOfStudent++
+// let name_of_student = ["esther", "david", "samuel", "grace", "ibrahim","chioma", "tobi", "favour"]    // 6
+// let countOfStudent = 0;
+// console.log("Student register");{
+// while((countOfStudent + 1) + "" + name_of_student(countOfStudent));
+// countOfStudent++
+// }
+// console.log("total size of class" + name_of_student.length)
+
+
+let attempts = 1         // 7
+console.log("Entering system password")
+while(attempts<=3){
+    console.log("Attempts" + attempts)
+    attempts++
 }
-console.log("total size of class" + name_of_student.length)
+console.log("Access Blocked")
 
 
-// let attempts = 1         // 7
-// console.log("Entering system password")
-// while(attempts<=3){
-//     console.log("Attempts" + attempts)
-//     attempts++
-// }
-// console.log("Access Blocked")
-
-
-// let num = 1;       // 8
-// console.log("odd number from 1 to 35");
-// while(num<=35){
-//     console.log(num)
-//     num+=2
-// }
+let oddNum = 1;       // 8
+console.log("odd number from 1 to 35");
+while(oddNum<=35){
+    console.log(oddNum)
+    o+=2
+}
 
 
 // let scores = [65, 80, 42, 91, 58, 77, 39, 100]    // 9
@@ -119,7 +120,6 @@ console.log("total size of class" + name_of_student.length)
 // let average = total / scores.length;
 
 
-
 // let balance = 100000;         // 10
 // let transaction = [-15000, 20000, -80000, 12000, -25000];
 // console.log("Starting balance:  ₦" + balance);
@@ -139,7 +139,3 @@ console.log("total size of class" + name_of_student.length)
 //     c++
 // }
 // console.log("Final Balance:  ₦" + balance);
-
-
-
-

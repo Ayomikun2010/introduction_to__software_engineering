@@ -1,0 +1,14 @@
+#bulbContainer{
+    text-align: center;
+}
+#Onbulb{
+    display: none;
+}
+
+#toggle{
+    display: block;
+    width: 90px;
+    margin: 10px auto; 
+    padding: 10px;
+}
+

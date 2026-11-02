@@ -97,4 +97,3 @@ break;
 }
 
 // 10. Multiplication Table (For Loop + DOM)
-

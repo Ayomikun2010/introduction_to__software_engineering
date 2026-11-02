@@ -648,24 +648,3 @@ let studentName = number_of_student.length;
 for(let count = 0; count < studentName; count++){
 console.log(number_of_student);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
