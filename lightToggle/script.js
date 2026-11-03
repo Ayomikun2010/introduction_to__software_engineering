@@ -9,12 +9,14 @@ toggleElem.addEventListener("click", function(){
         offBulbElem.hidden = false;
         onBulbElem.hidden = true;
         toggleElem.textContent = "Turn on"
+          // offBulb = true;
          offBulb = true;
     } else {
         offBulbElem.hidden = true;
         onBulbElem.hidden = false;
          toggleElem.textContent = "Turn off"
           offBulb = false;
+            // offBulb = true;
     }   
     
     // let onbulb = true;
