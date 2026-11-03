@@ -67,7 +67,7 @@ console.log(startsIsTrueOrFalse);
 let endIsTrueOrFalse = email.endsWith(".pdf")
 if (email.endsWith(".pdf") == false ){
     console.log("confirming what its printing");
-   console.log(endIsTrueOrFalse);
+    console.log(endIsTrueOrFalse);
 }
 
 let indexNo = email.indexOf("m")

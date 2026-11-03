@@ -1,32 +1,26 @@
+const toggleElem = document.getElementById("toggle");
 const bulbContainerElem = document.getElementById("bulbContainer");
 const offBulbElem = document.getElementById("Off bulb");
 const onBulbElem = document.getElementById("On bulb");
-const toggleElem = document.getElementById("toggle");
 
-let isOn = false;
+let offBulb = true;
 toggleElem.addEventListener("click", function(){
-      if(isOn===true){
+    if(offBulb===false){
         offBulbElem.hidden = false;
         onBulbElem.hidden = true;
-       
+        toggleElem.textContent = "Turn on"
+         offBulb = true;
     } else {
         offBulbElem.hidden = true;
         onBulbElem.hidden = false;
-        toggleElem.textContent = "Turn off";
-       
-    }
-
-    // if(isOn===true){
+         toggleElem.textContent = "Turn off"
+          offBulb = false;
+    }   
+    
+    // let onbulb = true;
+    // if(onbulb===true){
     //     offBulbElem.hidden = true;
     //     onBulbElem.hidden = false;
-    //     toggleElem.textContent = "Turn off";
-    // } else {
-    //     offBulbElem.hidden = false;
-    //     onBulbElem.hidden = true;
-    //     toggleElem.textContent = "Turn on";
+    //     // offBulb = true;
     // }
 })
-
-
-
-
